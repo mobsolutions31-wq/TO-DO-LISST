@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!--Tabs-->
+        <div class="tabs">
+            <button class="tab">Notifications</button>
+            <button class="tab active">ToDo</button>
+        </div>
+
+        <!--list task -->
+
+        <div class="task-content">
+            <div class="task">
+                <form>
+                    <label>
+                        <input type="radio" name="task" id="check" class="task-checkbox" value="Complete main UI components">
+                        Complete main UI components
+                    </label>
+                </form>
+
+                <div class="task-description">Would be good if we Incloude every componet in design system...</div>
+                <span class="due">📅 Due: 6 April 2022</span>
+                <span class="assigned">👤 Esther Helen</span>
+            </div>
+
+            <div class="task">
+                <form>
+                    <label>
+                        <input type="radio" name="task" class="task-checkbox" value="Landing page design">
+                        Landing page design
+                    </label>
+                </form>
+
+                <span class="due">📅 Due: 10 April 2022</span>
+                <span class="assigned">👤 Brooklyn Simmons</span>
+            </div>
+
+            <div class="task">
+
+                <form>
+                    <label>
+                        <input type="radio" name="task" class="task-checkbox" value="Brand Guidelines">
+                        Brand Guidelines
+                    </label>
+                </form>
+
+                <span class="due">📅 Due: 12 May 2022 </span>
+                <span class="assigned">👤 Annette Bwemere</span>
+            </div>
+
+            <div class="task">
+
+                <form>
+                    <label>
+                        <input type="radio" name="task" class="task-checkbox" value="Lerning FrontEnd">
+                        Lerning FrontEnd
+                    </label>
+                </form>
+
+                <span class="due">📅 Due: 12 Jun 2022 </span>
+                <span class="assigned">👤 Mob Solutions</span>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="actions-container">
+        <div class="add-task">
+            <input type="text" placeholder="Task name here...">
+            <textarea placeholder="Description"></textarea>
+            <div class="actions">
+                <div class="actions1">
+                    <button>📅 Due Date</button>
+                    <button>👤 Assign To</button>
+                </div>
+
+                <div class="actions2">
+                    <button class="cancel">Cancel</button>
+                    <button class="add">Add Task</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
